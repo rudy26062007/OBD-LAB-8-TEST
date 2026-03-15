@@ -10,23 +10,7 @@ const db = mysql.createConnection({
     password: 'radeon4728',
     database: 'myhotel'
 });
-db.connect((err) => {
-    if (err) {
-        console.error('Database connection failed:', err);
-        return;
-    }
-    console.log('Connected to MySQL');
-});
-//GET
-app.get('/employees', (req, res) => {
-    db.query('SELECT * FROM employees', (err, results) => {
-        if (err) {
-            res.status(500).json({ error: err.message });
-            return;
-        }
-        res.json(results);
-    });
-});
+
 
 // DELETE - видалити працівника
 app.delete('/employee_amenity_assignment/:employee_id', (req, res) => { 
