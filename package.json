@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "supertest"
+    "test": "echo \"No tests yet\""
   },
   "dependencies": {
     "express": "^5.2.1",
