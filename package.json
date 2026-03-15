@@ -1,0 +1,17 @@
+{
+  "name": "neons",
+  "version": "1.0.0",
+  "description": "expres tut by itdxer",
+  "license": "ISC",
+  "author": "ITDXER",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.19.1"
+  },
+  "keywords": []
+}
