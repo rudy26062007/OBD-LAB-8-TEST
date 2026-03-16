@@ -2,7 +2,14 @@ const express = require('express');
 const mysql = require('mysql2');
 const app = express();
 app.use(express.json());
-
+database: 'myhotel'
+});
+db.connect((err) => {
+    if (err) {
+        console.error('Database connection failed:', err);
+        return;
+    }
+    console.log('Connected to MySQL');
 
     password: 'radeon4728',
     
