@@ -5,14 +5,7 @@ app.use(express.json());
 
 
     password: 'radeon4728',
-    database: 'myhotel'
-});
-db.connect((err) => {
-    if (err) {
-        console.error('Database connection failed:', err);
-        return;
-    }
-    console.log('Connected to MySQL');
+    
 });
 //GET
 app.get('/employees', (req, res) => {
