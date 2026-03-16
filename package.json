@@ -4,9 +4,7 @@
   "description": "expres tut by itdxer",
   "license": "ISC",
   "author": "ITDXER",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
+ 
     "test": "echo \"No tests yet\""
   },
   "dependencies": {
